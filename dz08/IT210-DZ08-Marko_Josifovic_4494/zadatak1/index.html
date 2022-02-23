@@ -1,0 +1,63 @@
+<!-- Marko Josifovic 4494 -->
+
+<!-- Forma za unos podataka po izboru. Forma treba da sadrži bar jedan textbox, radio box,
+check box i select box. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT210-DZ08-Marko-Josifovic-4494</title>
+</head>
+<body>
+    <form action="skripta.php" method="GET">
+        <!-- TextBox -->
+        <label for="ime">Unesite ime:</label><br>
+        <input type="text" name="ime"><br>
+        <label for="prezime">Unesite prezime:</label><br>
+        <input type="text" name="prezime"><br>
+
+        <!-- Radio Box -->
+        <p>Izaberite pol:</p>
+        <input type="radio" id="muski" name="pol" value="Muški">
+        <label for="m">Muški</label><br>
+        <input type="radio" id="zenski" name="pol" value="Ženski">
+        <label for="female">Ženski</label><br>
+
+        <!-- Check Box -->
+        <p>Koje jezike govorite?</p>
+        <input type="checkbox" id="jezik1" name="jezik1" value="nemački">
+        <label for="jezik1"> nemački jezik </label><br>
+        <input type="checkbox" id="jezik2" name="jezik2" value="francuski">
+        <label for="jezik2"> francuski jezik </label><br>
+        <input type="checkbox" id="jezik3" name="jezik3" value="italijanski">
+        <label for="jezik3"> italijanski jezik </label><br>
+        <input type="checkbox" id="jezik4" name="jezik4" value="španski">
+        <label for="jezik4"> španski jezik </label><br>
+
+        <br>
+
+        <!-- Select Box  -->
+        <label for="boja">Omiljena boja?</label>
+        <br>
+        <select name="boja" id="boja">
+            <option value=""></option>
+            <option value="Plava">Plava</option>
+            <option value="Crvena">Crvena</option>
+            <option value="Zelena">Zelena</option>
+            <option value="Žuta">Žuta</option>
+            <option value="Crna">Crna</option>
+            <option value="Roze">Roze</option>
+            <option value="Narandžasta">Narandžasta</option>
+        </select>
+        <br>
+
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
