@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Kreirati XML dokument sa podacima o meniju jela u restoranu. Dokument treba da sadrži
+sledeće podatke: naziv jela, tip jela (predjelo, glavno, dezert...), tri glavna sastojka, cenu i
+velicinu porcije.
+Upisati podatke o najmanje šest jela.
+Nazive tagova i strukturu dokumenta definišete po vašem izboru. -->
+
+<meni>
+
+    <jelo>
+        <naziv>Šopska salata</naziv>
+        <tip>Predjelo</tip>
+        <glavni_sastojci>
+            <sastojak_1>Paradajz</sastojak_1>
+            <sastojak_2>Krastavac</sastojak_2>
+            <sastojak_3>Sir</sastojak_3>
+        </glavni_sastojci>
+        <cena>180 RSD</cena>
+        <velicina>Srednja</velicina>
+    </jelo>
+
+    <jelo>
+        <naziv>Lovačka salata</naziv>
+        <tip>Predjelo</tip>
+        <glavni_sastojci>
+            <sastojak_1>Paprika</sastojak_1>
+            <sastojak_2>Paradajz</sastojak_2>
+            <sastojak_3>Beli luk</sastojak_3>
+        </glavni_sastojci>
+        <cena>220 RSD</cena>
+        <velicina>Srednja</velicina>
+    </jelo>
+
+    <jelo>
+        <naziv>Calzone</naziv>
+        <tip>Glavno jelo</tip>
+        <glavni_sastojci>
+            <sastojak_1>Sir</sastojak_1>
+            <sastojak_2>Šunka</sastojak_2>
+            <sastojak_3>Pečurke</sastojak_3>
+        </glavni_sastojci>
+        <cena>1100 RSD</cena>
+        <velicina>Porodična</velicina>
+    </jelo>
+
+    <jelo>
+        <naziv>Carpaccio</naziv>
+        <tip>Glavno jelo</tip>
+        <glavni_sastojci>
+            <sastojak_1>Biftek</sastojak_1>
+            <sastojak_2>Parmezan</sastojak_2>
+            <sastojak_3>Začini</sastojak_3>
+        </glavni_sastojci>
+        <cena>1210 RSD</cena>
+        <velicina>Srednja</velicina>
+    </jelo>
+
+    <jelo>
+        <naziv>Ala Pepe</naziv>
+        <tip>Glavno jelo</tip>
+        <glavni_sastojci>
+            <sastojak_1>Mileram</sastojak_1>
+            <sastojak_2>Bukovača</sastojak_2>
+            <sastojak_3>Pančeta</sastojak_3>
+        </glavni_sastojci>
+        <cena>850 RSD</cena>
+        <velicina>Srednja</velicina>
+    </jelo>
+
+    <jelo>
+        <naziv>Čokoladni sufle</naziv>
+        <tip>Dezert</tip>
+        <glavni_sastojci>
+            <sastojak_1>Crna čokolada</sastojak_1>
+            <sastojak_2>Bela čokolada</sastojak_2>
+            <sastojak_3>Sladoled</sastojak_3>
+        </glavni_sastojci>
+        <cena>350 RSD</cena>
+        <velicina>Mala</velicina>
+    </jelo>
+
+</meni>
+
+<!-- Marko Josifović 4494 -->
