@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/43212801/xslt-max-function-to-find-maximum-value
+
+https://www.w3.org/2005/xpath-functions/#max
+

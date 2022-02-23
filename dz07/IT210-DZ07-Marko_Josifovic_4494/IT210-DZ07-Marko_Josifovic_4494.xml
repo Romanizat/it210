@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="IT210-DZ07-Marko_Josifovic_4494.xsl"?>
+    <studenti>
+
+        <student>
+            <ime>Milos</ime>
+            <prezime>Ljubinkovic</prezime>
+            <starost>21</starost>
+            <ocena>8</ocena>
+            <sifra>IT210</sifra>
+        </student>
+
+        <student>
+            <ime>Marko</ime>
+            <prezime>Josifovic</prezime>
+            <starost>20</starost>
+            <ocena>9</ocena>
+            <sifra>IT210</sifra>
+        </student>
+
+        <student>
+            <ime>Petar</ime>
+            <prezime>Peric</prezime>
+            <starost>22</starost>
+            <ocena>5</ocena>
+            <sifra>IT210</sifra>
+        </student>
+
+        <student>
+            <ime>Nikola</ime>
+            <prezime>Nikolic</prezime>
+            <starost>23</starost>
+            <ocena>5</ocena>
+            <sifra>IT210</sifra>
+        </student>
+
+        <student>
+            <ime>Ilija</ime>
+            <prezime>Ilic</prezime>
+            <starost>25</starost>
+            <ocena>7</ocena>
+            <sifra>IT210</sifra>
+        </student>        
+
+
+    </studenti>
