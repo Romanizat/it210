@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT210 - DZ09 - Marko Josifović 4494</title>
+</head>
+<body>
+    <h2>Marko Josifović 4494 - IT210 - DZ09</h2>
+    <h3>Unesite podatke o proizvodu</h3>
+    <form action="unos.php" method="POST">
+        <label for="sifra">Šifra:</label>
+        <br>
+        <input type="number" name="sifra" required><br><br>
+        <label for="naziv">Naziv:</label>
+        <br>
+        <input type="text" name="naziv" required><br><br>
+        <label for="cena">Cena:</label>
+        <br>
+        <input type="number" name="cena" step="0.01" required><br><br>
+        <label for="kolicina">Količina:</label>
+        <br>
+        <input type="number" name="kolicina" required><br><br>
+        <label for="proizvodjac">Proizvođač:</label>
+        <br>
+        <input type="text" name="proizvodjac" required><br><br>
+        <label for="vrsta">Vrsta proizvoda:</label>
+        <select name="vrsta">
+            <option value="0">Izaberite vrstu</option>
+            <option value="prehrana">Prehrana</option>
+            <option value="neprehrana">Neprehrana</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Unesi podatke">
+    </form>
+
+    <br><br>
+
+    <form action="prikaz.php" method="GET">
+        <input type="submit" value="Prikaži podatke">
+    </form>
+
+    <br><br>
+
+    <form action="statistika.php" method="GET">
+        <input type="submit" value="Prikaži statistiku">
+    </form>
+    
+</body>
+</html>
